@@ -1,0 +1,46 @@
+section{
+    margin-top:-170px;
+}
+
+
+
+
+#h1{
+    margin-top: -150px;
+}
+
+
+@media screen and (max-width:920px){
+
+   sectiom .article{
+    height: auto
+   }
+       
+    
+    section{
+        margin-top:-120px;
+    }
+}    
+@media screen and (max-width:760px){
+    section{
+        margin-top: -150px;
+    }
+    
+   
+ 
+}
+@media screen and (max-width:540px){
+    section{
+        margin-top: -150px;
+    }
+    
+ 
+}
+@media screen and (max-width:400px){
+    #h1 p{
+        font-size: 12px;
+    }
+    aside img{
+        height: 220px;
+    }
+}

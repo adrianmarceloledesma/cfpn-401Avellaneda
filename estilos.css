@@ -1,0 +1,121 @@
+body{
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+/* header */
+header{
+    background-color:rgb(151, 147, 147);
+    opacity: 0.7;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+header #titulo{
+    width: 200px;
+    margin-left: 60px;
+}
+header li{
+    display: inline-block;
+    padding: 5px 10px;
+    color:rgba(red, green, blue, alpha);
+    font-weight: bold;
+    cursor: pointer;
+}
+header #boton-menu{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    margin: auto;
+    display:none
+}
+
+/* nav */
+header nav{
+    float: right;
+    margin-right: 50px;
+}
+
+nav .activo{
+    color:blue;
+}
+nav ul a{
+    text-decoration: none;
+    color:black;
+}
+nav ul a:hover{
+    color:rgb(24, 0, 245) ;
+    border-bottom:rgb(24, 0, 245) 2px solid;  
+}
+
+/* aside */
+aside{
+    margin-top: -80px;
+}
+aside img{
+    width: 100%;
+  
+}
+
+/* section */
+section{
+    text-align: center;
+    margin-top: -100px;
+}
+.article {
+    width: 30%;
+    height: 450px;
+    /* lo centro  a los 3 article*/
+    display: inline-flex;
+
+    padding: 10px 0;
+    margin:0 7px 0 7px;
+    background-color: rgb(17, 60, 80);
+    color:white;
+}
+.article img{
+    width: 100%;
+    height: 160px;
+}
+.article figcaption{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* div */
+#h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    position: relative;
+    bottom: 45%;
+    z-index: 2;
+    margin-top: -100px;
+    
+}
+#h1 h2{
+    font-size: 40px;
+}
+#h1 p{
+    color: rgb(145, 200, 252);
+}
+
+/* footer */
+footer{
+    background-color: rgb(87, 87, 87);
+    color:white;
+    margin-top:150px;
+    padding:10px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:rgb(61, 139, 211);
+}
+footer .derechosReservados{
+    color: black;
+}
+
+

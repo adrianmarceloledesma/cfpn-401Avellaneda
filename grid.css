@@ -1,0 +1,149 @@
+.contenedor{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, 1fr);
+   grid-template-rows:repeat(auto-fill, minmax(70px, 1fr));
+}
+header{
+    grid-column:1/-1;
+    grid-row:1/2 ;
+}
+aside{
+    grid-column: 1/-1;
+    grid-row: 2/3;
+}
+
+section{
+    grid-column:1/-1;
+    grid-row: 6/13;
+
+}
+footer{
+    grid-column: 1/-1;
+    grid-row: 12/14;
+}
+
+
+
+/* responsive */
+@media screen and (max-width:920px){
+  
+    section .article{
+        height:400px;
+        width: 70%;
+        float: center;
+        margin-bottom: 20px;
+    }
+    section .article img{
+        height:220px ;
+    }
+
+    header li {
+        font-size: 18px;
+        padding-right:5px;
+    }
+
+    #h1{
+        font-size: 30px;
+        margin:0
+    }
+    #h1 h2{
+        margin-top: 100px;
+        font-size: 30px;
+    }
+    #h1 p{
+        font-size: 22px;
+    }
+    section{
+        margin-top: -100px;
+    }
+    
+}
+
+
+@media screen and (max-width:760px){
+    /* header */
+    nav li{
+        display:block;
+       
+        padding: 20px;
+        text-align: center;
+        margin-left: -40px;
+        border-bottom: black 2px solid;
+        
+    }
+    header nav{
+        width: 100%;
+        margin:0 0 0 0;
+        background-color: brown;
+        height: 273px;
+        display: none;
+    }
+    header{
+        opacity: 1;
+        z-index: 11;
+    }
+    header #boton-menu{
+        display:inline-block
+    }
+
+    
+    aside img{
+        margin-top: 70px;
+    }  
+
+
+    #h1 h2{
+       margin-top: 150px;
+        font-size: 25px;
+    }
+    #h1 p{
+        font-size: 20px;
+    }
+
+    section .article{
+        height: auto;
+    }
+  
+  
+
+}
+@media screen and (max-width:540px){
+     .contenedor{
+         width: 100%;
+     }
+    .contenedor p{
+        font-size: 20px;
+    }
+    .contenedor .article figcaption{
+        font-size: 22px;
+    }
+    #h1{
+       
+        font-size: 20px;
+    }
+    #h1 h2{
+        
+        font-size: 19px;
+    }
+    #h1 p{
+        font-size: 16px;
+    }
+  
+    footer{
+        font-size: 16px;
+    }
+ 
+    section .article{
+        margin: 65px 0 -40px 0;
+        width: 100%;
+    }
+    section .article img{
+        height:auto ;
+    }
+    section .article #reloj-img{
+        height: 160px;
+    }
+
+}
+
+  
