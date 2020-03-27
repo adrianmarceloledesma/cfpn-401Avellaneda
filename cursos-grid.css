@@ -63,9 +63,12 @@ section{
     header nav{
         width: 100%;
         margin:0 0 0 0;
-        background-color: brown;
+        background-color: rgb(143, 143, 143);
         height: 273px;
         display: none;
+    }
+    header nav li:nth-child(1){
+        border-top: 2px solid black;
     }
     header{
         background-color: rgb(143, 143, 143);

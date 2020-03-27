@@ -73,9 +73,15 @@ footer{
     header nav{
         width: 100%;
         margin:0 0 0 0;
-        background-color: brown;
-        height: 273px;
-        display: none;
+        background-color: rgb(143, 143, 143);
+        height: 270px;
+        display: none; 
+    }
+    header nav li:nth-child(1){
+        border-top: 2px solid black;
+    }
+    nav a{
+        margin:auto;
     }
     header{
         background-color: rgb(143, 143, 143);
@@ -169,7 +175,7 @@ footer{
 
 @media screen and (max-width:400px){
     .section-index{
-        margin-top: -85px;
+        margin-top: -60px;
     }
     /* aside index */
     aside .div-aside-index{
@@ -187,5 +193,8 @@ footer{
     header #boton-salida{
         right:3px ;
     }   
+    footer{
+        margin-top: 90px;
+    }
 }
   
