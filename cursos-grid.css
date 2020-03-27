@@ -67,6 +67,9 @@ section{
         height: 273px;
         display: none;
     }
+    nav .activo{
+        background-color: gray;
+    }
     header{
         background-color: rgb(143, 143, 143);
         z-index: 11;

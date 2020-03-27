@@ -44,8 +44,9 @@ header nav{
     margin-right: 50px;
 }
 
-nav .activo{
-    background-color: gray;
+nav .activo a{
+    color:rgb(24, 0, 245) ;
+   
 }
 nav ul a{
     text-decoration: none;

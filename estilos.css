@@ -43,8 +43,9 @@ header nav{
     margin-right: 50px;
 }
 
-nav .activo{
-    background-color: gray;
+nav .activo a{
+    color:rgb(24, 0, 245) ;
+  
 }
 nav ul a{
    
@@ -75,6 +76,7 @@ aside{
 .div-aside-index .text-aside {
     top:500px;
     color:rgb(17, 60, 80);
+    text-shadow: 1px 1px 5px black;
 } 
 .text-aside{
     width: 100%;
