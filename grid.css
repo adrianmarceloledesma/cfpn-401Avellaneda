@@ -68,7 +68,7 @@ footer{
         text-align: center;
         margin-left: -40px;
         border-bottom: black 2px solid;
-        
+        background-color: rgb(190, 92, 26);
     }
     header nav{
         width: 100%;
@@ -76,6 +76,13 @@ footer{
         background-color: rgb(143, 143, 143);
         height: 270px;
         display: none; 
+    }
+
+    header nav .activo{
+        background-color:rgb(43, 84, 112) ;
+    }
+    nav li a{
+        color: white;
     }
     header nav li:nth-child(1){
         border-top: 2px solid black;
@@ -104,7 +111,9 @@ footer{
     /* aside index */
     .div-aside-index{
         height: 400px;
+        
     }
+  
     .div-aside-index .text-aside{
         font-size: 34px;
         top:400px
@@ -125,7 +134,9 @@ footer{
     .section-index{
           margin-top: -20px;
     }
-  
+    footer{
+        font-size: 18px;
+    }
   
 
 }
@@ -158,6 +169,7 @@ footer{
   
     footer{
         font-size: 16px;
+        margin-top: 90px;
     }
  
     section .article{
@@ -173,6 +185,7 @@ footer{
     .section-index{
         margin-top: -70px;
     }
+   
 
 }
 
@@ -197,7 +210,8 @@ footer{
         right:3px ;
     }   
     footer{
-        margin-top: 90px;
+        
+        font-size: 13px;
     }
 }
   

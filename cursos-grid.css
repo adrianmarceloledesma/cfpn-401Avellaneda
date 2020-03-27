@@ -67,6 +67,15 @@ section{
         height: 273px;
         display: none;
     }
+    header nav li{
+        background-color: rgb(190, 92, 26);
+    }
+    header nav .activo{
+        background-color:rgb(43, 84, 112) ;
+    }
+    nav li a{
+        color: white;
+    }
     header nav li:nth-child(1){
         border-top: 2px solid black;
     }
@@ -81,6 +90,7 @@ section{
     aside img{
         margin-top: 0;
     }
+  
     div h2{
         font-size: 23px;
     }
