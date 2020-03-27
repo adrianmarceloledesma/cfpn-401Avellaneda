@@ -54,7 +54,7 @@ nav ul a{
 }
 nav ul a:hover{
     color:rgb(24, 0, 245) ;
-    border-bottom:rgb(24, 0, 245) 2px solid;  
+    
 }
 
 /* aside */
@@ -76,6 +76,7 @@ aside{
 .div-aside-index .text-aside {
     top:500px;
     color:rgb(17, 60, 80);
+    text-shadow: 1px 1px 5px black;
 } 
 .text-aside{
     width: 100%;

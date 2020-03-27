@@ -83,6 +83,9 @@ footer{
     nav a{
         margin:auto;
     }
+    nav .activo{
+        background-color: gray;
+    }
     header{
         background-color: rgb(143, 143, 143);
         z-index: 11;
