@@ -2,45 +2,67 @@ section{
     margin-top:-170px;
 }
 
-
-
-
-#h1{
-    margin-top: -150px;
+aside{
+    margin-top: -30px;
 }
+
+
+
 
 
 @media screen and (max-width:920px){
 
-   sectiom .article{
+   section.article{
     height: auto
    }
        
     
     section{
-        margin-top:-120px;
+        margin-top:-100px;
     }
 }    
 @media screen and (max-width:760px){
     section{
-        margin-top: -150px;
+        margin-top: -40px;
     }
-    
+    aside{
+        margin-top: 60px;
+    }
+    .text-aside{
+        top:300px
+    }
+    .text-aside h2{
+        font-size: 24px;
+    }
+    .text-aside p{
+        font-size: 18px;
+    }
    
  
 }
 @media screen and (max-width:540px){
     section{
-        margin-top: -150px;
+        margin-top: -60px;
     }
     
  
 }
 @media screen and (max-width:400px){
-    #h1 p{
-        font-size: 12px;
+
+    section{
+        margin-top: -60px;
     }
-    aside img{
-        height: 220px;
+    .div-aside{
+        height: 250px;
     }
-}
+    
+    .div-aside .text-aside{
+        top:200px
+    }
+    .div-aside .text-aside h2{
+        font-size: 18px;
+    }
+    .div-aside .text-aside p{
+        font-size: 14px;
+    }
+}    

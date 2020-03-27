@@ -14,12 +14,12 @@ aside{
 
 section{
     grid-column:1/-1;
-    grid-row: 6/13;
+    grid-row: 3/4;
 
 }
 footer{
     grid-column: 1/-1;
-    grid-row: 12/14;
+    grid-row: 4/6;
 }
 
 
@@ -41,22 +41,21 @@ footer{
         font-size: 18px;
         padding-right:5px;
     }
+   /* aside index */
+    .div-aside-index{
+        height: 450px;
+    }
+    .div-aside-index .text-aside{
+        font-size: 34px;
+        top:400px
+    }
 
-    #h1{
-        font-size: 30px;
-        margin:0
-    }
-    #h1 h2{
-        margin-top: 100px;
-        font-size: 30px;
-    }
-    #h1 p{
-        font-size: 22px;
-    }
     section{
         margin-top: -100px;
+      
     }
     
+ 
 }
 
 
@@ -79,29 +78,43 @@ footer{
         display: none;
     }
     header{
-        opacity: 1;
+        background-color: rgb(143, 143, 143);
         z-index: 11;
     }
-    header #boton-menu{
+    header #boton-entrada{
         display:inline-block
     }
-
+    header nav li a{
+        display: block;
+        width: 200px;
+    }
     
-    aside img{
-        margin-top: 70px;
-    }  
-
-
-    #h1 h2{
-       margin-top: 150px;
-        font-size: 25px;
+    aside{
+        margin-top: 0;
     }
-    #h1 p{
-        font-size: 20px;
+    /* aside index */
+    .div-aside-index{
+        height: 400px;
     }
+    .div-aside-index .text-aside{
+        font-size: 34px;
+        top:400px
+    }
+    /* aside institucional */
+     .div-aside{
+         height: 400px;
+     }
+     .div-aside .text-aside{
+         font-size: 18px;
+        
+     }
+   
 
     section .article{
         height: auto;
+    }
+    .section-index{
+          margin-top: -20px;
     }
   
   
@@ -117,16 +130,21 @@ footer{
     .contenedor .article figcaption{
         font-size: 22px;
     }
-    #h1{
-       
-        font-size: 20px;
+    /* aside index */
+    aside .div-aside-index{
+        height: 300px;
     }
-    #h1 h2{
-        
-        font-size: 19px;
+    .div-aside-index .text-aside {
+        top: 350px;
+        font-size: 28px;
+    } 
+    /* aside institucional */
+    .div-aside{
+        height: 350px;
     }
-    #h1 p{
-        font-size: 16px;
+    .div-aside .text-aside{
+        font-size: 18px;
+        top: 250px;
     }
   
     footer{
@@ -134,7 +152,7 @@ footer{
     }
  
     section .article{
-        margin: 65px 0 -40px 0;
+        margin: 95px 0 -60px 0;
         width: 100%;
     }
     section .article img{
@@ -143,7 +161,31 @@ footer{
     section .article #reloj-img{
         height: 160px;
     }
+    .section-index{
+        margin-top: -70px;
+    }
 
 }
 
+@media screen and (max-width:400px){
+    .section-index{
+        margin-top: -85px;
+    }
+    /* aside index */
+    aside .div-aside-index{
+        height: 190px;
+    }
+    .div-aside-index .text-aside{
+        top:260px;
+        font-size: 25px;
+    }
+
+    header .boton-menu{
+        position: absolut;
+        right: 0;
+    } 
+    header #boton-salida{
+        right:3px ;
+    }   
+}
   

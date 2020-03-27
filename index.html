@@ -12,11 +12,12 @@
 <body id="contenedor" class="contenedor">
     <header>
         <img id="titulo" src="LOGO.ESCUELA.png">
-        <img  id="boton-menu" src="menucoloreado.png">
-        <nav>
+        <img  id="boton-entrada" class="boton-menu" src="menucoloreado.png">
+        <img id="boton-salida" class="boton-menu" src="xx.png">
+        <nav class="menu-responsive">
             <ul >
                 <li class="activo"><a href="index.html">Inicio</a></li>
-                <li id="cursos">Cursos</li>
+                <li id="cursos" ><a href="cursos.html">Cursos</a></li>
                 <li id="institucional"><a href="institucional.html">Institucional</a></li>
                 <li id="contacto">Contacto</li>
             </ul>
@@ -24,15 +25,17 @@
     </header>
     
     <aside >
-        <img src="img-aside.jpg" alt="">
-        <h1 id="h1">Centro de Formación Profesional N° 401</h1>
+        <div class="div-aside-index" style="background-image: url(img/img-aside.jpg);">
+            <h1 class="text-aside">Centro de Formación Profesional N° 401</h1>
+        </div>
+        
     </aside>
     
-    <section >
+    <section class="section-index" >
 
         <article class="article" id="article1">
             <figure>
-                <img  src="img-aside3.jpg">
+                <img  src="img/img-aside3.jpg">
                 
                 <figcaption>Inscripciones 2020</figcaption>
                 <p>A partir de la semana del 9 de Marzo se esncuentra abierta la inscripción al ciclo lectivo 2020. Av. Mitre 331
@@ -41,14 +44,14 @@
         </article>
         <article class="article" id="article2">
             <figure>
-                <img src="img-section.jpg">
+                <img src="img/img-section.jpg">
                 <figcaption>Requisitos</figcaption>
                 <p>Requisitos de Inscripcion es este ciclo lectivo: 3 (tres) Fotocopias de DNI. Constancia de Estudios Primarios o Superiores</p>
             </figure>
         </article>
         <article class="article" id="article3">
             <figure>
-                <img id="reloj-img" src="img-reloj.jpg">
+                <img id="reloj-img" src="img/img-reloj.jpg">
                 <figcaption>Horarios de Atención</figcaption>
                 <p>Los horarios son de de Lunes a Viernes de 10:00 a 19:30 hs</p>
             </figure>
@@ -56,9 +59,10 @@
     </section>
     
     <footer>
-        <address> 2020 . <span class="derechosReservados">Todos los Derechos Reservados</span></address>
         <address class="desarrollador">Desarrollado por: <a href="https://www.linkedin.com/in/adrian-marcelo-ledesma-86589b1a0/">
-                 Adrian Marcelo Ledesma</a></address>
+            Adrian Marcelo Ledesma</a></address>
+        <address> 2020 . <span class="derechosReservados">Todos los Derechos Reservados</span></address>
+        
     </footer>
     
 

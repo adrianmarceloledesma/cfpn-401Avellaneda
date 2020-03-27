@@ -1,0 +1,164 @@
+body{
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+header{
+    background-color:rgba(151, 147, 147, 0.74);
+    z-index: 323;
+    position: fixed;
+    width: 100%;
+}
+header #titulo{
+    width: 200px;
+    margin-left: 60px;
+}
+
+header .boton-menu{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top:5px;
+    right: 10px;
+    margin: auto;
+    display:none
+}
+header #boton-salida{
+    width:40px;
+    height: 50px;
+    top: 10px;
+    right:12px ;
+}
+
+
+
+/* nav */
+header li{
+    display: inline-block;
+    padding: 5px 10px;
+    color:rgba(red, green, blue, alpha);
+    font-weight: bold;
+    cursor: pointer;
+}
+header nav{
+    float: right;
+    margin-right: 50px;
+}
+
+nav .activo{
+    background-color: gray;
+}
+nav ul a{
+    text-decoration: none;
+    color:black;
+}
+nav ul a:hover{
+    color:rgb(24, 0, 245) ;
+    border-bottom:rgb(24, 0, 245) 2px solid;  
+}
+
+/* aside */
+aside img{
+    margin-top: -80px;
+    width: 100%;
+   
+    z-index: 1;
+}
+aside h2{
+    font-size: 45px;
+    color: rgb(40, 67, 107);
+    text-align: center;
+    text-shadow: 2px 2px 7px gray;
+    
+    
+}
+
+
+/* div */
+div{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color:blue;
+    width: 90%;
+    height: 350px;
+    margin:20px auto;
+    
+}
+
+div h2{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 70%;
+    height: 100%;
+    margin-top: 0;
+    color:white;
+    font-size: 30px;
+    box-sizing:border-box;
+    padding: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+div h2:hover{
+    background-color: rgba(31, 57, 141, 0.747);
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color: rgb(87, 87, 87);
+    color:white;
+    padding:10px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:rgb(61, 139, 211);
+}
+footer .derechosReservados{
+    color: black;
+}
+
+
+
+/* ajax section */
+section{
+    font-size: 20px;
+    width: 95%;
+    margin: auto;
+}
+table{
+    margin:0 0 100px 0;
+}
+section h3{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    color:  rgb(17, 60, 80);
+    
+}
+section table .tabla-titulos td{
+    background-color: rgb(27, 68, 121);
+    color: white;
+    font-weight: normal;
+}
+
+ table td{
+    border-bottom:rgb(17, 60, 80) solid 2px;
+    padding: 10px;
+}
+section td:nth-child(1){
+    color: rgb(17, 60, 80);
+    font-weight: bold;
+}
+section .span-table{
+    font-weight: bold;
+    color: brown;
+}

@@ -1,0 +1,170 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:repeat(auto-fill, minmax(70px, 1fr));
+ }
+ header{
+     grid-column:1/-1;
+     grid-row:1/2 ;
+ }
+ aside{
+     grid-column: 1/-1;
+     grid-row: 2/3;
+ }
+ 
+ .div1{
+     grid-column:1/2;
+     grid-row: 3/4;
+ 
+ }
+ .div2{
+     grid-column: 2/3;
+     grid-row: 3/4;
+ }
+ .div3{
+     grid-column: 1/2;
+     grid-row: 4/5;
+     
+ }
+ .div4{
+     grid-column: 2/3;
+     grid-row: 4/5;
+ }
+section{
+    grid-column: 1/-1;
+    grid-row: 5/6; 
+ }
+ footer{
+     grid-column: 1/-1;
+     grid-row: 6/7;
+ }
+
+ @media screen and (max-width:920px){
+    header li {
+        font-size: 18px;
+        padding-right:5px;
+    }
+    div h2{
+        font-size: 27px;
+    }
+ }
+
+ @media screen and (max-width:760px){
+    /* header */
+    nav li{
+        display:block;
+       
+        padding: 20px;
+        text-align: center;
+        margin-left: -40px;
+        border-bottom: black 2px solid;
+        
+    }
+    header nav{
+        width: 100%;
+        margin:0 0 0 0;
+        background-color: brown;
+        height: 273px;
+        display: none;
+    }
+    header{
+        background-color: rgb(143, 143, 143);
+        z-index: 11;
+    }
+    header #boton-entrada{
+        display: inline;
+    }
+
+    aside img{
+        margin-top: 0;
+    }
+    div h2{
+        font-size: 23px;
+    }
+
+    section{
+        font-size: 18px;
+    }
+    footer{
+        font-size: 18px;
+    }
+ }
+
+
+ 
+ 
+ @media screen and (max-width:630px){
+    .div1{
+        grid-column:1/-1;
+        grid-row: 3/4;
+    
+    }
+    .div2{
+        grid-column: 1/-1;
+        grid-row: 4/5;
+    }
+    .div3{
+        grid-column: 1/-1;
+        grid-row: 5/6;
+        
+    }
+    .div4{
+        grid-column: 1/-1;
+        grid-row: 6/7;
+    }
+    section{
+        grid-column: 1/-1;
+        grid-row: 7/8; 
+     }
+     footer{
+         grid-column: 1/-1;
+         grid-row: 8/9;
+     }
+     div h2{
+         font-size: 30px;
+     }
+
+     aside h2{
+         font-size: 30px;
+     }
+
+     section{
+         font-size: 17px;
+         margin: 0;
+     }
+ }
+
+
+ @media screen and (max-width:570px){
+     div{
+         height: 250px;
+     }
+     section{
+        font-size: 13px;
+        margin: 0 auto;
+       
+    }
+    section h3{
+        font-size: 25px;
+    }
+   
+
+ }
+
+ @media screen and (max-width:370px){
+     div{
+         height: 200px;
+     }
+     div h2{
+         font-size: 25px;
+     }
+     footer{
+         font-size: 13px;
+     }
+     header .boton-menu{
+         right: 0;
+     }
+     header #boton-salida{
+        right:5px ;
+    }
+ }
