@@ -195,11 +195,13 @@ footer{
     }
     /* aside index */
     aside .div-aside-index{
-        height: 190px;
+        height: 160px;
+        
     }
+  
     .div-aside-index .text-aside{
-        top:260px;
-        font-size: 25px;
+        top:250px;
+        font-size: 21px;
     }
 
     header .boton-menu{
