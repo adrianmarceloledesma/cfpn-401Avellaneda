@@ -59,10 +59,10 @@ aside{
 @media screen and (max-width:400px){
 
     section{
-        margin-top: -60px;
+        margin-top: -80px;
     }
     .div-aside{
-        height: 200px;
+        height: 220px;
     }
     
     .div-aside .text-aside{

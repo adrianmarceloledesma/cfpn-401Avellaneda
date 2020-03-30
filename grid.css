@@ -188,11 +188,11 @@ footer{
 
 @media screen and (max-width:400px){
     .section-index{
-        margin-top: -60px;
+        margin-top: -80px;
     }
     /* aside index */
     aside .div-aside-index{
-        height: 160px;
+        height: 180px;
         
     }
   
