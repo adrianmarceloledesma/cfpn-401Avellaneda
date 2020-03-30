@@ -12,21 +12,21 @@
      grid-row: 2/3;
  }
  
- .div1{
+ #div1{
      grid-column:1/2;
      grid-row: 3/4;
  
  }
- .div2{
+ #div2{
      grid-column: 2/3;
      grid-row: 3/4;
  }
- .div3{
+ #div3{
      grid-column: 1/2;
      grid-row: 4/5;
      
  }
- .div4{
+ #div4{
      grid-column: 2/3;
      grid-row: 4/5;
  }
@@ -44,7 +44,7 @@ section{
         font-size: 18px;
         padding-right:5px;
     }
-    div h2{
+    .div-cursos h2{
         font-size: 27px;
     }
  }
@@ -75,6 +75,11 @@ section{
     }
     nav li a{
         color: white;
+      
+        display: inline-block;
+        width: 100%;
+     
+       
     }
     header nav li:nth-child(1){
         border-top: 2px solid black;
@@ -91,8 +96,11 @@ section{
         margin-top: 0;
     }
   
-    div h2{
+    .div-cursos h2{
         font-size: 23px;
+    }
+    .div-cursos{
+        height: 270px;
     }
 
     section{
@@ -100,6 +108,7 @@ section{
     }
     footer{
         font-size: 18px;
+        margin-top: 20px;
     }
  }
 
@@ -107,21 +116,21 @@ section{
  
  
  @media screen and (max-width:630px){
-    .div1{
+    #div1{
         grid-column:1/-1;
         grid-row: 3/4;
     
     }
-    .div2{
+    #div2{
         grid-column: 1/-1;
         grid-row: 4/5;
     }
-    .div3{
+    #div3{
         grid-column: 1/-1;
         grid-row: 5/6;
         
     }
-    .div4{
+    #div4{
         grid-column: 1/-1;
         grid-row: 6/7;
     }
@@ -133,7 +142,7 @@ section{
          grid-column: 1/-1;
          grid-row: 8/9;
      }
-     div h2{
+     .div-cursos h2{
          font-size: 30px;
      }
 
@@ -145,30 +154,43 @@ section{
          font-size: 17px;
          margin: 0;
      }
+   
  }
 
 
  @media screen and (max-width:570px){
-     div{
+     .div-cursos{
          height: 250px;
      }
      section{
-        font-size: 13px;
+        font-size: 16px;
         margin: 0 auto;
        
     }
     section h3{
         font-size: 25px;
     }
-   
+    footer{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .contenedor-tabla{
+        display:none
+    }
+    .div-cursos-mobile{
+        display: inline;
+    }
+    section .span-table{
+        font-size: 14px;
+    }
 
  }
 
  @media screen and (max-width:370px){
-     div{
+     .div-cursos{
          height: 200px;
      }
-     div h2{
+     .div-cursos h2{
          font-size: 25px;
      }
      footer{
@@ -180,4 +202,5 @@ section{
      header #boton-salida{
         right:5px ;
     }
+   
  }

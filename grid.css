@@ -80,19 +80,18 @@ footer{
 
     header nav .activo{
         background-color:rgb(43, 84, 112) ;
+        
     }
     nav li a{
         color: white;
+        
+        width: 100%;
+        display: inline-block;
     }
     header nav li:nth-child(1){
         border-top: 2px solid black;
     }
-    nav a{
-        margin:auto;
-    }
-    nav .activo{
-        background-color: gray;
-    }
+
     header{
         background-color: rgb(143, 143, 143);
         z-index: 11;
@@ -100,10 +99,7 @@ footer{
     header #boton-entrada{
         display:inline-block
     }
-    header nav li a{
-        display: block;
-        width: 200px;
-    }
+  
     
     aside{
         margin-top: 0;
@@ -152,19 +148,20 @@ footer{
     }
     /* aside index */
     aside .div-aside-index{
-        height: 300px;
+        height: 250px;
     }
     .div-aside-index .text-aside {
-        top: 350px;
+        top: 320px;
         font-size: 28px;
     } 
     /* aside institucional */
     .div-aside{
-        height: 350px;
+        height:250px;
     }
     .div-aside .text-aside{
         font-size: 18px;
-        top: 250px;
+        top: 200px;
+        
     }
   
     footer{

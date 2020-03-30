@@ -75,7 +75,7 @@ aside h2{
 
 
 /* div */
-div{
+.div-cursos{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color:blue;
@@ -85,7 +85,7 @@ div{
     
 }
 
-div h2{
+.div-cursos h2{
     background-color: rgba(0, 0, 0, 0.6);
     width: 70%;
     height: 100%;
@@ -98,7 +98,7 @@ div h2{
     overflow: hidden;
     overflow-wrap: break-word;
 }
-div h2:hover{
+.div-cursos h2:hover{
     background-color: rgba(31, 57, 141, 0.747);
 }
 
@@ -112,11 +112,14 @@ div h2:hover{
 
 
 /* footer */
+
 footer{
+    margin-top: 30px;
     background-color: rgb(87, 87, 87);
     color:white;
     padding:10px;
     text-align: center;
+    font-size: 20px;
 }
 
 footer a{
@@ -163,3 +166,23 @@ section .span-table{
     font-weight: bold;
     color: brown;
 }
+
+
+/* tabla responsive */
+.div-cursos-mobile{
+    margin-top: 50px;
+    display: none;
+}
+ .div-cursos-mobile h4{
+     font-size: 22x;
+     color: white;
+     background-color: rgb(27, 68, 121);
+     padding: 10px;
+     font-weight:300;
+     margin-bottom: 0;
+ }
+ .div-cursos-mobile table{
+     width: 100%;
+     margin-bottom: 30px;
+ }
+ 

@@ -12,11 +12,19 @@ $("#boton-salida").click(function(){
    
 })
 
+// scroll cursos(se mueve el scroll hacia un lugar especifico de la pag)
+$(".div-cursos").on("click", function(){
+    var posicion = $("section").offset().top;
+    $("html, body").animate({
+        scrollTop: posicion 
+    }, 1000); 
+});
+
 
 
 
 // ajax
-$(".div1 h2").click(function(){
+$("#div1 h2").click(function(){
     const xhr = new XMLHttpRequest();
     xhr.open("GET", "ajax1.html", true);
     xhr.send();
@@ -27,7 +35,7 @@ $(".div1 h2").click(function(){
     }
 })
 
-$(".div2 h2").click(function(){
+$("#div2 h2").click(function(){
     const xhr = new XMLHttpRequest();
     xhr.open("GET", "ajax2.html", true);
     xhr.send();
@@ -38,7 +46,7 @@ $(".div2 h2").click(function(){
     }
 })
 
-$(".div3 h2").click(function(){
+$("#div3 h2").click(function(){
     const xhr = new XMLHttpRequest();
     xhr.open("GET", "ajax3.html", true);
     xhr.send();
@@ -49,7 +57,7 @@ $(".div3 h2").click(function(){
     }
 })
 
-$(".div4 h2").click(function(){
+$("#div4 h2").click(function(){
     const xhr = new XMLHttpRequest();
     xhr.open("GET", "ajax4.html", true);
     xhr.send();
