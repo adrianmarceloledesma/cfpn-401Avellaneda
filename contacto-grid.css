@@ -1,0 +1,149 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-template-rows:repeat(auto-fill, minmax(70px, 1fr));
+ }
+ header{
+     grid-column:1/3;
+     grid-row:1/2 ;
+ }
+ aside{
+     grid-column: 1/3;
+     grid-row: 2/3;
+ }
+ 
+ #div1{
+     grid-column:1/3;
+     grid-row: 3/4;
+     
+ }
+ #div2{
+     grid-column:1/2;
+     grid-row: 4/5;
+ }
+ #div3{
+     grid-column: 2/3;
+     grid-row:4/5;
+ }
+ footer{
+     grid-column: 1/3;
+     grid-row: 5/6;
+ }
+
+ /* responsive */
+@media screen and (max-width:920px){
+    header li {
+        font-size: 18px;
+        padding-right:5px;
+    }
+    #div1 h2{
+        font-size: 32px;
+    }
+}
+ 
+
+@media screen and (max-width:760px){
+    /* header */
+    nav li{
+        display:block;
+       
+        padding: 20px;
+        text-align: center;
+        margin-left: -40px;
+        border-bottom: black 2px solid;
+        background-color: rgb(190, 92, 26);
+    }
+    header nav{
+        width: 100%;
+        margin:0 0 0 0;
+        background-color: rgb(143, 143, 143);
+        height: 270px;
+        display: none; 
+    }
+
+    header nav .activo{
+        background-color:rgb(43, 84, 112) ;
+        
+    }
+    nav li a{
+        color: white;
+        
+        width: 100%;
+        display: inline-block;
+    }
+    header nav li:nth-child(1){
+        border-top: 2px solid black;
+    }
+
+    header{
+        background-color: rgb(143, 143, 143);
+        z-index: 11;
+    }
+    header #boton-entrada{
+        display:inline-block
+    }
+  
+    
+    aside img{
+        margin-top: 0;
+    }
+
+    #div1 h2{
+        font-size: 26px;
+    }
+    .div-mapa{
+        margin-top: 0;
+        
+    }
+    /* grid */
+    #div2{
+        grid-column:1/3;
+        grid-row: 4/5;
+    }
+    #div3{
+        grid-column: 1/3;
+        grid-row:5/6;
+        margin-top: 40px;
+    }
+    footer{
+        grid-column: 1/3;
+        grid-row: 6/7;
+        font-size: 18px;
+    }
+    /* . */
+
+    
+}
+@media screen and (max-width:540px){
+    #div1 {
+        margin:0 0 20px 0;
+
+    }
+    .div-mapa{
+        width: 100%;
+        font-size: 20px;
+    }
+    footer{
+        font-size: 16px;
+    }    
+
+}
+
+@media screen and (max-width:400px){
+    .div-mapa p{
+        font-size: 18px;
+    }
+    .div-mapa h3{
+        font-size: 25px;
+    }
+    #div1{
+        font-size: 18px;
+    }
+
+    aside img{
+        height: 200px;
+    }
+    footer{
+        font-size: 13px;
+    }   
+}

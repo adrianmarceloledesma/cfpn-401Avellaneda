@@ -92,12 +92,14 @@ aside{
     
 }
 .text-aside h2{
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 3px 3px 5px rgb(97, 97, 97);
+    font-size:40px;
 }
 .text-aside p{
-    color: rgb(240, 237, 98);
+    font-size: 27px;
+    color: rgb(255, 252, 77);
     font-weight: bold;
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 3px 3px 5px rgb(83, 83, 83);
 }
 /* section */
 section{
@@ -134,6 +136,7 @@ footer{
     padding:10px;
     text-align: center;
     margin-bottom: 0;
+    font-size: 20px;
 }
 footer .desarrollado{
     color:white
