@@ -70,12 +70,13 @@ div{
     text-align: center;
 }
 #div1{
-    margin: 50px 0 100px 0;
+    margin: 0 0 100px 0;
     
 }
 #div1 h2{
     font-size: 40px;
     color:rgb(17, 60, 80) ;
+    text-shadow:1px 1px 3px black ;
 }
 #div1 a{
     text-decoration: none;
@@ -85,11 +86,11 @@ div{
     width: 90%;
     background-color: rgb(17, 60, 80);
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     color: white;
 }
 .div-mapa iframe{
-    width: 100%;
+    width: 95%;
     height: 400px;
 }
 .div-mapa h3{
