@@ -117,10 +117,11 @@ footer{
     /* aside institucional */
      .div-aside{
          height: 400px;
+         margin-top: -60px;
      }
-     .div-aside .text-aside{
-         font-size: 18px;
-        
+
+     .div-aside .text-aside h2{
+         font-size: 30px;
      }
    
 
@@ -156,12 +157,16 @@ footer{
     } 
     /* aside institucional */
     .div-aside{
-        height:250px;
+        height:280px;
     }
-    .div-aside .text-aside{
-        font-size: 18px;
+    .div-aside .text-aside{     
         top: 200px;
-        
+    }
+    .div-aside .text-aside h2{
+        font-size: 25px;
+    }
+    .div-aside .text-aside p{
+        font-size: 18px;
     }
   
     footer{
