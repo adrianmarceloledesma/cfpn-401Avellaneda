@@ -121,7 +121,7 @@ body{
 }
 @media screen and (max-width:540px){
     aside img{
-        height: 280px;
+        height: 250px;
     }
     #div1 {
         margin:0 0 40px 0;
